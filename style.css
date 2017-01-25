@@ -1,14 +1,40 @@
 #clock {
 }
 
+
 #clock img {
+  position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #hour {
+  transform: rotate(45deg);
 }
 
+#hour img{
+  position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
 #minute {
+  transform: rotate(6deg);
+}
+
+#minute img{
+  position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #second {
+  transform: rotate(6deg);
+}
+
+#second img{
+  position: absolute;
+    top: 0;
+    left: 0;
 }
